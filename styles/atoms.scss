@@ -1,0 +1,36 @@
+@use "variables" as v;
+
+//mixin to define headers
+@mixin define-header($color, $back-color, $size, $padding) {
+  color: $color;
+  background-color: $back-color;
+  font-size: $size;
+  padding: $padding;
+}
+
+//h1 atom
+h1 {
+  @include define-header(v.$timber-wolf, v.$forest-green, xx-large, v.$padding-default)
+}
+//h2 atom
+h2 {
+  @include define-header(v.$timber-wolf, v.$sky-blue, x-large, v.$padding-default)
+}
+//h3 atom
+h3 {
+  @include define-header(v.$dark-blue, v.$timber-wolf, small, v.$padding-default)
+}
+//p atom
+section {
+  color: v.$timber-wolf;
+  background-color: v.$dark-blue;
+  padding: v.$padding-default;
+  margin: 10px 50px;
+}
+//a atom
+a {
+  color: v.$sky-blue;
+  &:hover {
+    color: v.$forest-green;
+  }
+}

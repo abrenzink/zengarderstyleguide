@@ -1,0 +1,16 @@
+@use "atoms";
+@use "molecules";
+@use "organisms" as o;
+@use "variables" as v;
+@import
+  url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+* {
+  font-family: Work Sans, sans-serif;
+}
+
+body{
+  padding: 20px;
+  margin: 50px;
+  border: v.$dark-blue solid 2px;
+}

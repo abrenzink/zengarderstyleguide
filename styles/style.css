@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+h1 {
+  color: #dbd7d2;
+  background-color: #1f931f;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+h2 {
+  color: #dbd7d2;
+  background-color: #63acf0;
+  font-size: x-large;
+  padding: 20px;
+}
+
+h3 {
+  color: #142233;
+  background-color: #dbd7d2;
+  font-size: small;
+  padding: 20px;
+}
+
+section {
+  color: #dbd7d2;
+  background-color: #142233;
+  padding: 20px;
+  margin: 10px 50px;
+}
+
+a {
+  color: #63acf0;
+}
+a:hover {
+  color: #1f931f;
+}
+
+* {
+  font-family: Work Sans, sans-serif;
+}
+
+body {
+  padding: 20px;
+  margin: 50px;
+  border: #142233 solid 2px;
+}
+
+.forest-green {
+  background-color: #1f931f;
+}
+
+.sky-blue {
+  background-color: #63acf0;
+}
+
+/*# sourceMappingURL=style.css.map */
